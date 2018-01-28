@@ -1,0 +1,30 @@
+{
+  "name": "mybutler",
+  "version": "0.0.1",
+  "description": "When all you need is simple mysql queries to get it done.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanfrancy/mybutler.git"
+  },
+  "keywords": [
+    "mysql",
+    "plugin"
+  ],
+  "author": "Nathan Francy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanfrancy/mybutler/issues"
+  },
+  "homepage": "https://github.com/nathanfrancy/mybutler#readme"
+}
