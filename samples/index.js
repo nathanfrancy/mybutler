@@ -35,6 +35,8 @@ butler.user.insert({
     return butler.user.deleteWhere({ email: "joe@something.com" });
 }).then((result) => {
     butler.__log(`Affected rows: ${result.affectedRows}`);
+    return butler.user.deleteAll();
+}).then(() => {
     process.exit();
 }).catch((err) => {
     butler.__log(err);
